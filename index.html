@@ -1,0 +1,336 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>QDCars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/qdc-style.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-qdcars">
+       <div class="top-bar">
+           <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 hidden-xs">
+                        <p>Olá, bem-vindo!</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 user-menu">
+                        <ul>
+                            <li><a href="#" title="Seu Histórico de pedidos">Meus Pedidos</a></li>
+                            <li><a href="#" title="Nossos canais de atendimento">Atendimento</a></li>
+                        </ul>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#qdc-navmenu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand qdc-logo" href="#" title="QDCars">
+                    <img alt="Logo QDCars" src="images/qdcars-logo.png">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse qdc-navmenu" id="qdc-navmenu">
+                <ul class="nav navbar-nav">
+                    <li><a href="">Lorem <i class="fa fa-angle-down fa-lg qdc-angledown" aria-hidden="true"></i></a></li>
+                    <li><a href="">Ipsum <i class="fa fa-angle-down fa-lg qdc-angledown" aria-hidden="true"></i></a></li>
+                    <li><a href="">Sit <i class="fa fa-angle-down fa-lg qdc-angledown" aria-hidden="true"></i></a></li>
+                    <li><a href="">Dolor <i class="fa fa-angle-down fa-lg qdc-angledown" aria-hidden="true"></i></a></li>
+                    <li><a href="">Amet <i class="fa fa-angle-down fa-lg qdc-angledown" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>  
+            <div class="nav navbar navbar-right qdc-searchcart">
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="search" class="form-control qdc-formsearch" placeholder="Estou procurando por...">
+                    </div>
+                <button type="submit" class="btn btn-default"><i class="fa fa-search fa-lg" aria-hidden="true"></i></button>
+                </form>
+                <div class="qdc-cart">
+                    <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                    <span class="cart-info">
+                        <span id="cart-length">(99)</span>
+                        <span id="cart-price">R$9.999,00</span>
+                    </span>
+                </div>
+            </div>          
+        </div>
+    </nav>
+    <div class="main-banner">
+        <div class="container">
+            <a href="#" title="Carrão maneiro"><img src="images/main-banner.jpg" alt="Carrão maneiro" class="img-responsive"></a>
+        </div>
+    </div>
+    <section class="sec-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <a href="#" title="Rodas maneiras"><img class="img-responsive" src="images/banner-sec-1.jpg" alt="Rodas maneiras"></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <a href="#" title="Frente de um carro maneiro"><img class="img-responsive" src="images/banner-sec-2.jpg" alt="Frente de um carro maneiro"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="sec-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a href="#" title="Carro vermelho maneiro"><img class="img-responsive" src="images/banner-ter-1.jpg" alt="Carro vermelho maneiro"></a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a href="#" title="A frente de um carro maneiro de novo"><img class="img-responsive" src="images/banner-ter-2.jpg" alt="A frente de um carro maneiro de novo"></a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a href="#" title="As rodas maneiras de novo"><img class="img-responsive" src="images/banner-ter-3.jpg" alt="As rodas maneiras de novo"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="mais-desejados">
+        <div class="container qdc-divider">
+            <h2 class="qdc-title">Mais Desejados</h2>
+            <div class="row">
+              <!--Produto1-->
+               <div class="col-xs-12 col-sm-6 col-md-3">
+                  <div class="qdc-product">
+                     <span class="flag" id="flag-novo"><i class="fa fa-star fa-fw" aria-hidden="true"></i> novo</span>
+                     <span class="flag" id="flag-frete"><i class="fa fa-truck fa-fw" aria-hidden="true"></i> frete grátis</span>
+                     <span class="flag" id="flag-oferta"><i class="fa fa-certificate fa-fw" aria-hidden="true"></i> oferta</span>
+                      <a href="#" title="Produto toper um">
+                          <img src="images/foto-produto.jpg" alt="Foto do produto">
+                      </a>
+                      <h3><a href="#">Lorem Ipsum Dolor Sit Lorem Ipsum Dolor Sit Amet</a></h3>
+                      <div class="preco">
+                          <span class="qdc-de">R$ 280,00</span>
+                          <span class="qdc-por">R$ 190,00</span>
+                      </div>
+                      <div class="parc">
+                          <span>12x de R$ 66,00</span>
+                      </div>
+                      <div class="qdc-comprar">
+                          <a href="#">
+                            <span class="btncomprar-icon"></span>
+                            <span class="btncomprar-text">Comprar</span>
+                          </a>
+                      </div>
+                  </div>                   
+               </div> 
+                <!--/Produto1-->
+                 <!--Produto2-->
+               <div class="col-xs-12 col-sm-6 col-md-3">
+                  <div class="qdc-product">
+                     <span class="flag" id="flag-novo"><i class="fa fa-star fa-fw" aria-hidden="true"></i> novo</span>
+                     <span class="flag" id="flag-frete"><i class="fa fa-truck fa-fw" aria-hidden="true"></i> frete grátis</span>
+                     <span class="flag" id="flag-oferta"><i class="fa fa-certificate fa-fw" aria-hidden="true"></i> oferta</span>
+                      <a href="#" title="Produto toper dois">
+                          <img src="images/foto-produto.jpg" alt="Foto do produto">
+                      </a>
+                      <h3><a href="#">Lorem Ipsum Dolor Sit Lorem Ipsum Dolor Sit Amet</a></h3>
+                      <div class="preco">
+                          <span class="qdc-de">R$ 280,00</span>
+                          <span class="qdc-por">R$ 190,00</span>
+                      </div>
+                      <div class="parc">
+                          <span>12x de R$ 66,00</span>
+                      </div>
+                      <div class="qdc-comprar">
+                          <a href="#">
+                            <span class="btncomprar-icon"></span>
+                            <span class="btncomprar-text">Comprar</span>
+                          </a>
+                      </div>
+                  </div>                   
+               </div> 
+                <!--/Produto2-->
+                 <!--Produto3-->
+               <div class="col-xs-12 col-sm-6 col-md-3">
+                  <div class="qdc-product">
+                     <span class="flag" id="flag-novo"><i class="fa fa-star fa-fw" aria-hidden="true"></i> novo</span>
+                     <span class="flag" id="flag-frete"><i class="fa fa-truck fa-fw" aria-hidden="true"></i> frete grátis</span>
+                     <span class="flag" id="flag-oferta"><i class="fa fa-certificate fa-fw" aria-hidden="true"></i> oferta</span>
+                      <a href="#" title="Produto toper três">
+                          <img src="images/foto-produto.jpg" alt="Foto do produto">
+                      </a>
+                      <h3><a href="#">Lorem Ipsum Dolor Sit Lorem Ipsum Dolor Sit Amet</a></h3>
+                      <div class="preco">
+                          <span class="qdc-de">R$ 280,00</span>
+                          <span class="qdc-por">R$ 190,00</span>
+                      </div>
+                      <div class="parc">
+                          <span>12x de R$ 66,00</span>
+                      </div>
+                      <div class="qdc-comprar">
+                          <a href="#">
+                            <span class="btncomprar-icon"></span>
+                            <span class="btncomprar-text">Comprar</span>
+                          </a>
+                      </div>
+                  </div>                   
+               </div> 
+                <!--/Produto3-->
+                 <!--Produto4-->
+               <div class="col-xs-12 col-sm-6 col-md-3">
+                  <div class="qdc-product">
+                     <span class="flag" id="flag-novo"><i class="fa fa-star fa-fw" aria-hidden="true"></i> novo</span>
+                     <span class="flag" id="flag-frete"><i class="fa fa-truck fa-fw" aria-hidden="true"></i> frete grátis</span>
+                     <span class="flag" id="flag-oferta"><i class="fa fa-certificate fa-fw" aria-hidden="true"></i> oferta</span>
+                      <a href="#" title="Produto toper quatro">
+                          <img src="images/foto-produto.jpg" alt="Foto do produto">
+                      </a>
+                      <h3><a href="#">Lorem Ipsum Dolor Sit Lorem Ipsum Dolor Sit Amet</a></h3>
+                      <div class="preco">
+                          <span class="qdc-de">R$ 280,00</span>
+                          <span class="qdc-por">R$ 190,00</span>
+                      </div>
+                      <div class="parc">
+                          <span>12x de R$ 66,00</span>
+                      </div>
+                      <div class="qdc-comprar">
+                          <a href="#">
+                            <span class="btncomprar-icon"></span>
+                            <span class="btncomprar-text">Comprar</span>
+                          </a>
+                      </div>
+                  </div>                   
+               </div> 
+                <!--/Produto4-->
+            </div>
+        </div>
+    </section>
+    <!--newsletter-->
+    <div class="qdc-newsletter">
+       <div class="container">
+           <h2 class="qdc-title">Receba as novidades</h2>
+            <div class="row qdc-news">
+                <div class="hidden-xs col-sm-6 col-md-6 qdc-newsbanner">
+                     <a href="#"><img src="images/banner-news.jpg" alt="Carrão maneiro" class="img-responsive"></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <p>Receba novidades e ofertas com descontos exclusivos<br> diretamente no seu e-mail!</p>
+                    <form class="qdc-formnews">
+                        <input class="qdc-formsearch" id="qdc-email" type="email" placeholder="&#xf0e0;    Digite seu email...">
+                        <button type="submit">OK</button>
+                    </form>
+                    <div class="qdc-social">
+                        <ul>
+                            <li><a href="https://www.instagram.com/" target="_blank" title="QDCars instagram"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+                            <li><a href="http://facebook.com" target="_blank" title="QDCars facebook"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank" title="QDCars youtube"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/newsletter-->
+    <!--footer-->
+    <footer>
+        <div class="qdc-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="qdc-inst">
+                           <strong>Precisa de ajuda?</strong>
+                            <ul>
+                                <li><a href="#">Quem somos</a></li>
+                                <li><a href="#">Como compar</a></li>
+                                <li><a href="#">Trocas e devoluções</a></li>
+                                <li><a href="#">Política de entrega</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-4 logo-footer">
+                        <img class="img-responsive" src="images/qdcars-logo.png" alt="Logo QDCars">
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <address>
+                           <strong id="title-atend">Atendimento</strong><br><br>
+                            (11) <span id="footer-tel">3054-3434</span> <br>
+                            <a href="mailto:sac@email.com.br">sac@email.com.br</a><br>
+                            De 2ª a 5ª-feira, das 9 às 18:00h <br>
+                            Sexta-feira das 9 às 17:00h 
+                        </address>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-md-offset-3">
+                        <div class="qdc-empresa">
+                            <ul>
+                                <li><a href="#">Quem somos</a></li>
+                                <li><a href="#">Lojas Físicas</a></li>
+                                <li><a href="#">Seja um revendedor</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qdc-cert">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                       <div class="col-md-3">
+                            <span>Pagamento</span>
+                       </div>
+                           <div class="col-md-9"><div class="pag-flag">
+                                <ul>
+                                    <li id="visa"></li>
+                                    <li id="diners"></li>
+                                    <li id="amex"</li>
+                                    <li id="boleto"></li>
+                                    <li id="master"></li>
+                                    <li id="hipercard"></li>
+                                    <li id="moip"></li>
+                                </ul>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="col-md-7">
+                       <div class="col-md-4">
+                            <span>Compra 100% segura</span>
+                       </div>
+                           <div class="col-md-8"><div class="pag-flag">
+                                <ul>
+                                    <li id="ebit"></li>
+                                    <li id="certsign"></li>
+                                    <li id="clearsale"></li>
+                                    <li id="pci"></li>
+                                </ul>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qdc-sign">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xs-6">
+                        © 2013 - 2015 - Todos os direitos reservados. Razão Social Vestem - CNPJ 12.323.211/0001-44 <br>                        Avenida Henry Ford, 1.716, Parque da Mooca, São Paulo - SP CEP: 03109-000
+                    </div>
+                    <div class="col-md-1 col-md-offset-4 col-xs-3">
+                        <img class="img-responsive" src="images/powered_by_vtex.png" alt="VTex">
+                    </div>
+                    <div class="col-md-1 col-xs-3">
+                        <img class="img-responsive" src="images/design-by.png" alt="Quatro Digital">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/footer-->
+    
+  <script src="jquery.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

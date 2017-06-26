@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-qdcars{
+    background-color: #333;
+    color: #fff;
+    border-radius: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.top-bar{
+    font-size: 12px;
+    height: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.user-menu ul{
+    float:right; 
+}
+
+.user-menu ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.user-menu a{
+    color: #fff;
+}
+
+.qdc-logo{
+    width: auto;
+    height: auto;
+}
+
+.qdc-logo img{
+    width: 100%;
+}
+
+.qdc-navmenu ul li a{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 600;        
+}
+
+.qdc-angledown{
+    display: none;
+}
+
+.cart-info {
+    display: inline-block;
+    margin: 0 0 0 5px;
+}
+
+.fa-shopping-cart{
+    color: #f8595f;
+}
+
+#cart-length {
+    font-size: 11px;
+    display: block;
+    line-height: 0.9;
+}
+
+#cart-price {
+    font-size: 10px;
+}
+
+.qdc-formsearch{
+    padding: 12px 6px 12px 0;
+}
+
+.qdc-formsearch {
+    padding: 12px 6px 12px 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom: solid 2px #999;
+    color:#fff;
+}
+
+.qdc-formsearch::placeholder{
+    color: #fff;
+}
+
+.qdc-searchcart button, .qdc-searchcart button:hover  {
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.qdc-searchcart button:hover{
+    color: #999;
+}
+
+.sec-banner img{
+    margin: 30px 0 0 0;
+}
+
+.mais-desejados {
+    margin-top: 30px;
+}
+
+.qdc-divider{
+    border-top: solid 2px #e4e4e4; 
+}
+
+.qdc-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    margin: 15px 0 30px 0;
+}
+
+.qdc-product {
+    width: 245px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 25px 0;
+    position: relative;
+}
+
+.qdc-product a img {
+    margin-bottom: 30px;
+}
+
+.qdc-product h3 {
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.qdc-product a{
+    color: #000;
+    text-decoration: none;
+}
+
+.qdc-de {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.qdc-por{
+    color: #f8595f;
+    margin-left: 3px;
+}
+
+.qdc-comprar {
+    margin: 10px 0;
+}
+
+.qdc-comprar a{
+    width: 113px;
+    margin: 0 auto;
+    border: solid 0.5px green;
+    padding: 4px 10px;
+}
+
+.btncomprar-icon {
+    background: url(../images/qdc-sprite.png) 0 0 no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    position: absolute;
+}
+
+.btncomprar-text {
+    color: #009200;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 0 0 23px;
+}
+
+span.flag {
+    color: white;
+    background-color: black;
+    padding: 0px 6px 1px 0;
+    position: absolute;
+    font-weight: 100;
+}
+
+#flag-novo{
+    left: 15px;
+    top: 0;
+}
+
+#flag-frete{
+    background-color: #0082a7;
+    right: 15px;
+    top:0;
+}
+
+#flag-oferta{
+    background-color: #de006f;
+    right: 15px;
+    top: 22px;
+}
+
+.qdc-newsletter{
+    background-color: #e4e4e4;
+}
+
+.qdc-news{
+    margin: 30px 0 50px 0;
+}
+
+.qdc-newsbanner img{
+    margin: 0 auto;    
+}
+
+.qdc-news p{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.qdc-formnews{
+    width: 100%;
+    height: auto;
+}
+
+#qdc-email::placeholder{
+    font-family: "Lato", "FontAwesome", sans-serif;
+    color:#333;
+}
+
+#qdc-email{
+    width: 60%;
+    border-bottom: solid 2px #333;
+    margin-bottom: 42px;
+}
+
+.qdc-formnews button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    width: 25%;
+    padding: 10px;
+    float: right;
+}
+
+.qdc-social ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.qdc-social ul {
+    padding: 0;
+}
+
+.qdc-social ul li a {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    color: #333;
+}
+
+.qdc-social ul li a i {
+    position: relative;
+    left: 12px;
+    top: 13px;
+}
+
+.qdc-info {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    font-size: 12px;
+}
+
+.qdc-info strong {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.qdc-info a{
+    color: #fff;
+}
+
+.qdc-inst li {
+    list-style-type: none;
+}
+
+.qdc-inst ul{
+    padding: 20px 0 0 0;
+}
+
+.logo-footer {
+    margin: 40px 0 30px 0;
+}
+
+#footer-tel{
+    font-size: 20px;
+}
+
+.qdc-empresa li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.qdc-empresa ul{
+    text-align: center;
+}
+
+.qdc-cert {
+    background-color: e4e4e4;
+    padding-top: 30px;
+}
+
+.qdc-cert span {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.pag-flag ul {
+    padding: 0;
+    display: inline-block;
+}
+
+.pag-flag li {
+    background: url(../images/qdc-sprite.png) 0px -19px no-repeat;
+    display: inline-block;
+    width: 47px;
+    height: 27px;
+    margin: 0 5px 0 0;
+    float: left;
+}
+
+#diners{
+    background: url(../images/qdc-sprite.png) -53px -19px no-repeat;
+}
+
+#amex{
+    background: url(../images/qdc-sprite.png) -105px -19px no-repeat;
+}
+
+#boleto{
+    background: url(../images/qdc-sprite.png) -158px -19px no-repeat;
+}
+
+#master{
+    background: url(../images/qdc-sprite.png) -211px -19px no-repeat;
+}
+
+#hipercard{
+    background: url(../images/qdc-sprite.png) -263px -19px no-repeat;
+}
+
+#moip{
+    background: url(../images/qdc-sprite.png) -317px -19px no-repeat;
+}
+
+#ebit{
+    background: url(../images/qdc-sprite.png) 0 -46px no-repeat;
+    width: 59px;
+    height: 66px;
+}
+
+
+#certsign {
+    background: url(../images/qdc-sprite.png) -59px -46px no-repeat;
+    width: 76px;
+    height: 30px;
+}
+
+#clearsale {
+    background: url(../images/qdc-sprite.png) -134px -46px no-repeat;
+    width: 120px;
+    height: 28px;
+}
+
+#pci {
+    background: url(../images/qdc-sprite.png) -254px -50px no-repeat;
+    width: 68px;
+    height: 61px;
+}
+
+.qdc-sign {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.qdc-sign div {
+    font-size: 12px;
+    color: #999999;
+}
+
+@media (min-width: 750px) {
+    .qdc-navmenu {
+        float: left;
+        position: absolute;
+        bottom: 0;
+        padding: 0;
+    }
+    
+    .qdc-navmenu ul li a{
+        padding-left: 0;    
+    }
+    
+    .qdc-angledown{
+        display: inline-block;
+        color: #7a7a7a;
+    }   
+    
+    .qdc-logo{
+        padding: 0;
+        margin-left: -150px !important;
+    }
+    
+    .qdc-searchcart {
+    width: 40%;
+    margin-bottom: 7px;
+    }
+    
+    .qdc-cart {
+    float: right;
+    margin: 15px 15px 0 0;
+    }   
+    
+    .qdc-title{
+        font-size: 40px;
+    }
+    
+    .logo-footer img {
+        margin: 0 auto;
+        display: block;
+}
+    
+    footer address{
+        text-align: right;
+    }
+}
